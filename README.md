@@ -10,7 +10,6 @@ Clone and create an `.env` in the root folder with the fields from `.env-sample`
 Run a quick `npm install` and then `npm start` will run a nodemon.
 
 # API
----
 
 ## `GET: /create` Create a User
 
@@ -25,7 +24,6 @@ Request body:
 #### Notes
 1. Salting and hashing happens serverside, as salting exists mainly to protect against things like rainbow tables.
 
----
 ## `POST: /login` Login
 
 Request Body:
@@ -48,7 +46,6 @@ Successful response format:
 #### Notes
 1. Update the login endpoint to return the fields you wish to return, like email, et. al.
 
----
 ## `DELETE: /user` Delete a user
 
 Request Params:
